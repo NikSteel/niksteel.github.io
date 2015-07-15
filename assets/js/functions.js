@@ -2,7 +2,7 @@ $(function() {
 	smoothScroll(300);
 	workBelt();
 	workLoad();
-	testimonialStuff();
+	clientStuff();
 	
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	$(".biglink").fitText(1.5);
@@ -64,42 +64,42 @@ function  workLoad() {
 
 
 
-function testimonialStuff() {
+function clientStuff() {
   
-  $('.testimonial-logo, .testimonials-mobile-nav span').click(function() {
+  $('.client-logo, .clients-mobile-nav span').click(function() {
     var $this = $(this),
         $siblings = $this.parent().children(),
         position = $siblings.index($this);
         
-    $('.testimonial-unit').removeClass('active-testimonial').eq(position).addClass('active-testimonial');
-    $siblings.removeClass('active-testimonial');
-    $this.addClass('active-testimonial');
+    $('.client-unit').removeClass('active-client').eq(position).addClass('active-client');
+    $siblings.removeClass('active-client');
+    $this.addClass('active-client');
   });
   
   
-  $('.testimonial-control-next, .testimonial-control-prev').click(function() {
+  $('.client-control-next, .client-control-prev').click(function() {
   
     var $this = $(this),
-        curActiveTestimonial = $('.testimonials-belt').find('.active-testimonial'),
-        position = $('.testimonials-belt').children().index(curActiveTestimonial),
-        testimonialNum = $('.testimonial-unit').length;
+        curActiveClient = $('.clients-belt').find('.active-client'),
+        position = $('.clients-belt').children().index(curActiveClient),
+        clientNum = $('.client-unit').length;
         
-      if($this.hasClass('testimonial-control-next')) {
+      if($this.hasClass('client-control-next')) {
         
-        if(position < testimonialNum -1){
-          $('.active-testimonial').removeClass('active-testimonial').next().addClass('active-testimonial');
+        if(position < clientNum -1){
+          $('.active-client').removeClass('active-client').next().addClass('active-client');
         } else {
-          $('.testimonial-unit').removeClass('active-testimonial').first().addClass('active-testimonial');
-          $('.testimonial-logo').removeClass('active-testimonial').first().addClass('active-testimonial');
+          $('.client-unit').removeClass('active-client').first().addClass('active-client');
+          $('.client-logo').removeClass('active-client').first().addClass('active-client');
         }
         
       } else {
         
         if (position === 0) {
-          $('.testimonial-unit').removeClass('active-testimonial').last().addClass('active-testimonial');
-          $('.testimonial-logo').removeClass('active-testimonial').last().addClass('active-testimonial');
+          $('.client-unit').removeClass('active-client').last().addClass('active-client');
+          $('.client-logo').removeClass('active-client').last().addClass('active-client');
         } else {
-          $('.active-testimonial').removeClass('active-testimonial').prev().addClass('active-testimonial');  
+          $('.active-client').removeClass('active-client').prev().addClass('active-client');  
         }
 
       }
@@ -244,15 +244,15 @@ function testimonialStuff() {
 				$ta.css('resize', 'horizontal');
 			}
 
-			// The mirror width must exactly match the textarea width, so using getBoundingTestimonialRect because it doesn't round the sub-pixel value.
-			// window.getComputedStyle, getBoundingTestimonialRect returning a width are unsupported, but also unneeded in IE8 and lower.
+			// The mirror width must exactly match the textarea width, so using getBoundingClientRect because it doesn't round the sub-pixel value.
+			// window.getComputedStyle, getBoundingClientRect returning a width are unsupported, but also unneeded in IE8 and lower.
 			function setWidth() {
 				var width;
 				var style = window.getComputedStyle ? window.getComputedStyle(ta, null) : false;
 				
 				if (style) {
 
-					width = ta.getBoundingTestimonialRect().width;
+					width = ta.getBoundingClientRect().width;
 
 					if (width === 0 || typeof width !== 'number') {
 						width = parseInt(style.width,10);
