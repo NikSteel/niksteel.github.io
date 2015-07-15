@@ -3,7 +3,7 @@
 
 title: Nik Steel
 description: Software Developer // Audio Engineer
-email: steeln@uwindsor.ca
+email: nikolassteel@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -19,7 +19,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Nik is a freelance software developer with audio engineering expertise.'
+  description: 'Nik is an emerging software developer with audio engineering expertise.'
   rel-author: 'https://plus.google.com/u/0/+niksteel/'
   rel-publisher: 'https://plus.google.com/u/0/+niksteel/'
 
@@ -40,8 +40,8 @@ seo:
 
 blurb: >
   **Nik is a creative problem solver** with a passion for making life easy.
-  He presently volunteers at [Hackforge](http://hackf.org/){:target="_blank"}, a maker spacer in Windsor, where he helped introduce kids to 
-  the [physics of sound](https://youtu.be/aO8OiT28mew?list=PLK85ZLdkWlf9xbErDN42zK4v6b1Sabhl_){:target:"_blank"}, 
+  He presently volunteers at [Hackforge](http://hackf.org/){:target="_blank"}, a maker spacer in Windsor, where he has introduced kids to 
+  the [physics of sound](https://youtu.be/aO8OiT28mew?list=PLK85ZLdkWlf9xbErDN42zK4v6b1Sabhl_){:target="_blank"}, 
   topics in artificial intelligence, and fun, technology-inspired crafts projects.
   As he launches his career in software development, he is seeking opportunities to contribute to technology
   projects of any size or budget.  His uniquely diverse history in audio engineering, music, and the visual arts
@@ -53,7 +53,7 @@ skills:
 - {name: Leadership, value: '8'}
 - {name: Learning, value: '10'}
 - {name: Teaching, value: '7'}
-- {name: Team Work, value: '10'}
+- {name: Team Work, value: '9'}
 - {name: C / C++, value: '9'}
 - {name: HTML5 / CSS3 / Javascript, value: '6'}
 - {name: Acoustics, value: '9'}
