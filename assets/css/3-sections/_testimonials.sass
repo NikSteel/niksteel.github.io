@@ -1,22 +1,22 @@
-.section-clients
+.section-testimonials
   position: relative
 
-.clients-belt
+.testimonials-belt
   width: 100%
   position: relative
   
-  .client-unit
+  .testimonial-unit
     max-width: 750px
     margin: 50px auto
     position: relative
     z-index: 1
     display: none
 
-    &.active-client
+    &.active-testimonial
       +display(flex)
       @extend %#{$animation}
     
-    .client-face
+    .testimonial-face
       min-width: 300px
       text-align: center
       
@@ -25,18 +25,18 @@
         border-radius: 50%  
         
         
-      .client-name
+      .testimonial-name
         display: block
         text-transform: uppercase
         font-weight: 400
         letter-spacing: 1px
       
-      .client-title
+      .testimonial-title
         font-style: normal
         font-size: 12px
         color: #999
       
-    .client-content
+    .testimonial-content
       font-size: 18px
       line-height: 36px
       font-weight: 300
@@ -47,7 +47,7 @@
 
 
 // Logos
-.clients-logos
+.testimonials-logos
   position: relative
   max-width: 750px
   margin: 0px auto 100px
@@ -56,19 +56,19 @@
   +justify-content(space-around)
   
   
-  .client-logo
+  .testimonial-logo
     cursor: pointer
     margin: 0 20px 20px
     padding-bottom: 20px
     border-bottom: 4px solid transparent
     opacity: 0.5
     
-    &.active-client
+    &.active-testimonial
       opacity: 1
       border-bottom: 4px solid $accent
     
 
-.client-quote-mark
+.testimonial-quote-mark
   +position(absolute, -18px null null -15px)
   +size(60px)
   z-index: -1
@@ -80,7 +80,7 @@
 
 
 // Controls
-.client-controls
+.testimonial-controls
   +position(absolute, 0px 0px 0px 0px) 
   z-index: 2
   
@@ -92,14 +92,14 @@
     path
       fill: $accent
     
-  .client-control-next
+  .testimonial-control-next
     +position(absolute, 50% 10px null null)
   
-  .client-control-prev
+  .testimonial-control-prev
     +position(absolute, 50% null null 10px)
 
-// clients-mobile-nav
-.clients-mobile-nav
+// testimonials-mobile-nav
+.testimonials-mobile-nav
   text-align: center
   position: relative
   z-index: 2
@@ -113,43 +113,43 @@
     margin: 0px 10px
     cursor: pointer
     
-    &.active-client
+    &.active-testimonial
       border-color: $accent
     
     
     
 
 @media (max-width: 750px)
-  .clients-logos
+  .testimonials-logos
     +flex-wrap(wrap)
   
-  .clients-belt 
+  .testimonials-belt 
     overflow-x: hidden
     
-    .client-unit.active-client
+    .testimonial-unit.active-testimonial
       display: block
       position: relative
       margin-left: 0px
       left: auto
     
-      .client-face
+      .testimonial-face
         margin-bottom: 30px
       
-      .client-content
+      .testimonial-content
         padding: 0px 30px
         max-width: 400px
         margin: 0px auto
       
-      .client-quote-mark
+      .testimonial-quote-mark
         left: 6px
 
-  .client-controls
+  .testimonial-controls
     display: none
   
-  .clients-logos
+  .testimonials-logos
     display: none
 
-  .clients-mobile-nav
+  .testimonials-mobile-nav
     display: block
     
     

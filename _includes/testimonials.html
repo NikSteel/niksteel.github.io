@@ -1,0 +1,51 @@
+<section class="section-testimonials">
+
+  <h3 id="testimonials">Testimonials</h3>
+
+  <div class="testimonials-mobile-nav">
+    {% for testimonial in site.data.settings.testimonials %}
+      {% if forloop.first %}
+        <span class="active-testimonial"></span>
+      {% else %}
+        <span></span>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="testimonials-belt">
+    {% for testimonial in site.data.settings.testimonials %}
+      <div class="testimonial-unit {% if forloop.first %}active-testimonial{% endif %}">
+
+        <figure class="testimonial-face">
+          <img src="assets/img/testimonials/{{ testimonial.avatar }}" alt="testimonial-face">
+          <figcaption>
+            <strong class="testimonial-name">{{ testimonial.name }}</strong>
+            <em class="testimonial-title">{{ testimonial.title }}</em>
+          </figcaption>
+        </figure>
+
+        <div class="testimonial-content">
+          <div class="testimonial-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ testimonial.quote }}
+        </div>
+      </div>
+    {% endfor %}
+  
+  </div>
+
+  <div class="testimonial-controls">
+    <div class="testimonial-control-next">{% include icons/icon-next.html %}</div>
+    <div class="testimonial-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+
+  <div class="testimonials-logos">
+    {% for testimonial in site.data.settings.testimonials %}
+      {% if forloop.first %}
+        <img class="testimonial-logo active-testimonial" src="assets/img/testimonials/{{ testimonial.logo }}" align="{{ testimonial.logo }}">
+      {% else %}
+        <img class="testimonial-logo" src="assets/img/testimonials/{{ testimonial.logo }}" align="{{ testimonial.logo }}">
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</section>

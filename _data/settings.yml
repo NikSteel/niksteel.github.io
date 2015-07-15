@@ -10,7 +10,7 @@ email: nikolassteel@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+- {name: Testimonials, url: '#testimonials'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -75,9 +75,9 @@ projects:
 
 
 #-------------------------------
-# Clients Section
+# Testimonials Section
 
-clients:
+testimonials:
 - {avatar: 'face-doug.jpg',
   name: 'Doug Sartori',
   title: 'Hackforge President',
