@@ -10,7 +10,7 @@ email: nikolassteel@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+- {name: Testimonials, url: '#testimonials'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
