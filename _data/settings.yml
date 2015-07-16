@@ -8,7 +8,7 @@ email: nikolassteel@gmail.com
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
+- {name: About, url: '#about'}
 - {name: Work, url: '#work'}
 - {name: Testimonials, url: '#testimonials'}
 - {name: Contact, url: '#contact'}
@@ -39,7 +39,7 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Nik is a creative problem solver** with a passion for making life easy.
+  **Nik is a creative problem solver.**
   He presently volunteers at [Hackforge](http://hackf.org/){:target="_blank"}, a maker spacer in Windsor, where he has introduced kids to 
   the [physics of sound](https://youtu.be/aO8OiT28mew?list=PLK85ZLdkWlf9xbErDN42zK4v6b1Sabhl_){:target="_blank"}, 
   topics in artificial intelligence, and fun, technology-inspired crafts projects.

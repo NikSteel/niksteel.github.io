@@ -5,14 +5,6 @@ header
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path}) 
   padding-bottom: 50px
   
-  
-  .logo
-    +size(50px)
-    float: left
-    margin: 10px 0 0 30px
-    
-    path
-      fill: rgba(0,0,0,0.4)
     
   nav
     float: right
@@ -22,11 +14,11 @@ header
       display: inline-block
       margin-left: 20px
       
-      color: rgba(0,0,0,0.7)
+      color: rgba(255,255,255,0.8)
       @extend %small-bold
       
       &:hover
-        color: rgba(0,0,0,1)
+        color: rgba(255,255,255,1)
     
   h1
     text-align: center
