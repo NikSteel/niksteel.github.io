@@ -57,8 +57,6 @@ _A big thank you to these creators for contributing sample projects for the "wor
 - [Jieyu Xiong](https://www.behance.net/gallery/15063575/Fresh-It-Up-App-Design)
 
 
-![The Design](/assets/img/the_design.jpg)
-
 
 _Artist Themes in the wild:_
 - [limestudios](http://limestudios.net/)
