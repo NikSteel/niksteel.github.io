@@ -62,14 +62,14 @@ skills:
 # Work Section
 
 projects:
-- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
-
-
-
-
+- {name: Fruitbots, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: GeekOS, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Genetic Algorithm, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Ergodox Keyboard, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Acoustic Zoo Student Club, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Austin DIY Ribbon Mic, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Cymatics + LEAP Motion, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: ISO Reverb Measurment, folder: 'proj-8', file: 'work/proj-8.html'}
 
 #-------------------------------
 # Testimonials Section
