@@ -69,7 +69,7 @@ projects:
 - {name: Acoustic Zoo Student Club, folder: 'proj-5', file: 'work/proj-5.html'}
 - {name: Austin DIY Ribbon Mic, folder: 'proj-6', file: 'work/proj-6.html'}
 - {name: Cymatics + LEAP Motion, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: ISO Reverb Measurment, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: ISO3382 Reverb Time Measurment, folder: 'proj-8', file: 'work/proj-8.html'}
 
 #-------------------------------
 # Testimonials Section

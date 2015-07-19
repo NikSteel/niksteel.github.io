@@ -1,5 +1,3 @@
 ---
-title: City In Website Concept
+title: 
 ---
-
-![City In](assets/img/work/proj-2/CityIn-AntonSkvortsov.jpg)

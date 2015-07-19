@@ -1,5 +1,3 @@
 ---
-title: Crispy Icons
+title: 
 ---
-
-![Crispy Icons](assets/img/work/proj-3/CrispyIcons-PetrasNargela.jpg)

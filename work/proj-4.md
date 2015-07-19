@@ -1,5 +1,4 @@
 ---
-title: Flat Mobile UI/UX Concept
+title: 
 ---
 
-![Flat Mobile UI/UX Concept](assets/img/work/proj-4/flatmobile-AyoubElred.jpg)
