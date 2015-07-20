@@ -5,7 +5,7 @@ title: Nik Steel
 description: Software Developer // Audio Engineer
 email: nikolassteel@gmail.com
 
-# NOTE: The Logo and Background image are defined in the all.sass document.
+# NOTE: The Logo and Background image are defined in layout.yml
 
 menu:
 - {name: About, url: '#about'}
@@ -36,7 +36,7 @@ seo:
 #-------------------------------
 # About Section
 
-# NOTE: The avatar is defined in the all.sass document.
+# NOTE: The avatar is defined in layout.yml
 
 blurb: >
   **Nik is a creative problem solver.**
