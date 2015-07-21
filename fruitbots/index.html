@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="assets/css/drawgame.css"/>
+<script src="assets/js/lodash.js"></script>
+<script src="assets/js/seedrandom.js"></script>
+<script src="assets/js/fruitHelp.js"></script>
+<script src="assets/js/board.js"></script>
+<script src="assets/js/grid.js"></script>
+<script src="assets/js/simplebot.js"></script>
+<script src="assets/js/hackery.js"></script>
+<script src="assets/js/player1.js"></script>
+<script>
+    Player1 = {name: name};
+    initHackery(Player1);
+    Player1.makeMove = Player1.make_move;
+</script>
+<script src="assets/js/player2.js"></script>
+<script>
+    Player2 = {name: name};
+    initHackery(Player2);
+    Player2.makeMove = Player2.make_move;
+</script>
+<script src="assets/js/player.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+</head>
+<body onload="GamePlay.init()">
+
+
+<div id="p1_desc" class="player_desc"></div>
+<div class="vs">vs</div>
+<div id="p2_desc" class="player_desc"></div>
+<br>
+
+<div class="overlay_score">
+  <table style="line-height: 22px; font-size: 22px;">
+      <tr>
+          <th style="font-size: 19.8px;"></th>
+          <th style="font-size: 19.8px;"></th>
+          <th><img src="assets/images/FruitBlueBot.png" style="width: 22px; height: 22px;"></th>
+          <th><img src="assets/images/FruitPurpleBot.png" style="width: 22px; height: 22px;"></th>
+      </tr>
+      <tr>
+          <td><img src="assets/images/FruitApple.png" style="width: 22px; height: 22px;"></td>
+          <td id="totf1" style="font-size: 19.8px;"></td>
+          <td id="p1f1" style="text-align: center; font-size: 19.8px;"></td>
+          <td id="p2f1" style="text-align: center; font-size: 19.8px;"></td>
+      </tr>
+      <tr>
+          <td><img src="assets/images/FruitBanana.png" style="width: 22px; height: 22px;"></td>
+          <td id="totf2" style="font-size: 19.8px;"></td>
+          <td id="p1f2" style="text-align: center; font-size: 19.8px;"></td>
+          <td id="p2f2" style="text-align: center; font-size: 19.8px;"></td>
+      </tr>
+      <tr>
+          <td><img src="assets/images/FruitMelon.png" style="width: 22px; height: 22px;"></td>
+          <td id="totf3" style="font-size: 19.8px;"></td>
+          <td id="p1f3" style="text-align: center; font-size: 19.8px;"></td>
+          <td id="p2f3" style="text-align: center; font-size: 19.8px;"></td>
+      </tr>
+      <tr>
+          <td><img src="assets/images/FruitCherry.png" style="width: 22px; height: 22px;"></td>
+          <td id="totf4" style="font-size: 19.8px;"></td>
+          <td id="p1f4" style="text-align: center; font-size: 19.8px;"></td>
+          <td id="p2f4" style="text-align: center; font-size: 19.8px;"></td>
+      </tr>
+  </table>
+</div>
+
+<canvas id="grid"></canvas>
+<canvas id="game_view"></canvas>
+
+<div id="buttons">
+   <span class="newgame button">new</span>
+   <span class="reset button">reset</span>
+   <span class="pause button">pause</span>
+   <span class="play button">play</span>
+   <span class="forward button">forward</span>
+</div>
+
+</body>
+</html>
