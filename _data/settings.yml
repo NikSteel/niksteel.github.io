@@ -80,6 +80,11 @@ clients:
   title: 'Hackforge President',
   quote: '<p>As a volunteer with Hackforge Nik has used his energy, creativity and talent to help his community. It is rare to find someone who can contribute at a high level both artistically and technically. Nik has that ability.</p>',
   logo: 'hackforgelogo.png'}
+- {avatar: 'face-trevor.jpg',
+  name: 'Trevor Pittman',
+  title: 'Operations Manager/Concert Producer - University of Windsor School of Creative Arts',
+  quote: "Nik is dedicated, resourceful and keen to find out more about his area. He has put together the first-ever student electroacoustic music group and continues to work on interesting collaborative projects.",
+  logo: 'uwinlogo.png'}
 - {avatar: 'face-sarah.jpg',
   name: 'Sarah Morris',
   title: 'Program Coordinator at Windsor Hackforge',

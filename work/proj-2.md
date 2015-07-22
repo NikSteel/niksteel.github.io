@@ -4,10 +4,11 @@ title: GeekOS
 
 ![Our OS](assets/img/work/proj-2/start.png)
 
-As a final project for an introduction to operating systems course at the 
-University of Windsor, I collaborated with peers to implement a simple command line 
-operating system for the purpose of demonstrating process management fundamentals. 
-The project spanned two weeks and features contributions from
+I worked with peers to implement a simple command line operating system in C.
+Our OS offers the user an interactive demonstration of how processes are managed, synchronized
+and scheduled using the foundational concepts that we learned during an introduction to operating 
+systems course at the University of Windsor.
+The project spanned one month and features contributions from
 
 * Nik Steel
 * Todd Baert
@@ -16,14 +17,15 @@ The project spanned two weeks and features contributions from
 
 Our code is available on GitHub [here](https://github.com/NikSteel/GeekOS).
 
-We selected GeekOS, an open source project by David H. Hovemeyer, as our kernel and 
+We selected [GeekOS](https://code.google.com/p/geekos/), an open source project by David H. Hovemeyer, as our kernel and 
 successfully implemented a command line interface, a five state process model, 
 scheduling queues, mechanisms for process synchronization and scheduling, and dummy 
 programs for demonstrating job submission scenarios. 
 
 In addition to contributing to the inner workings of the OS during whiteboard discussions 
-and pair programming activities, I implemented a series of simple games and command line 
-interfaces to offer the user an interactive understanding of how our OS works.
+and pair programming activities, I lead development on the command line interface and 
+implemented a series of simple games to show how our scheduling and synchronization 
+algorithms work.
 
 Here, two processes exchange control of a tic tac toe game using the Peterson solution to 
 the critical section problem:
@@ -40,8 +42,11 @@ We provide four process scheduling algorithms and four job submission scenarios:
 
 ![Process scheduling menu.](assets/img/work/proj-2/scheduling.png)
 
-The user can see how the processes transition between the five process states,
-and runtime statistics can be compared to evaluate the performance of each
+The user can see how the processes transition between the five process states:
+
+![Example of running the process scheduling demo.](assets/img/work/proj-2/scheduler.gif)
+
+Afterwards, runtime statistics can be compared to evaluate the performance of each
 scheduling algorithm given a particular job submission scenario.
 
 ![Runtime statistics](assets/img/work/proj-2/runtime_stats.png)
