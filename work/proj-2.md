@@ -2,8 +2,7 @@
 title: GeekOS
 ---
 
-<img src="assets/img/work/proj-2/start.png" alt="Our OS" 
-   style="width: 480; height: 228">
+![Our OS](assets/img/work/proj-2/start.png)
 
 As a final project for an introduction to operating systems course at the 
 University of Windsor, I collaborated with peers to implement a simple command line 
@@ -29,26 +28,20 @@ interfaces to offer the user an interactive understanding of how our OS works.
 Here, two processes exchange control of a tic tac toe game using the Peterson solution to 
 the critical section problem:
 
-<img src="assets/img/work/proj-2/tictactoe.gif" alt="Peterson's solution demonstrated by tic tac toe game." 
-   style="width: 480; height: 260">
+![Peterson's solution demonstrated by tic tac toe game.](assets/img/work/proj-2/tictactoe.gif)
 
 Here, a group of poem-writing processes attempt to write their poem into a shared memory location at the same time. 
 The late arriving processes are blocked by the earliest arriving one, which has 
 control of the mutex lock:
 
-<img src="assets/img/work/proj-2/poems.gif" alt="Mutex locks demonstrated by poem writing competition." 
-   style="width: 480; height: 260">
+![Mutex locks demonstrated by poem writing competition.](assets/img/work/proj-2/poems.gif)
 
 We provide four process scheduling algorithms and four job submission scenarios:
 
-<img src="assets/img/work/proj-2/scheduling.png" alt="Process scheduling menu." 
-   style="width: 480; height: 271">
+![Process scheduling menu.](assets/img/work/proj-2/scheduling.png)
 
 The user can see how the processes transition between the five process states,
 and runtime statistics can be compared to evaluate the performance of each
 scheduling algorithm given a particular job submission scenario.
 
-<img src="assets/img/work/proj-2/runtime_stats.png" alt="Runtime statistics" 
-   style="width: 480; height: 143">
-
-
+![Runtime statistics](assets/img/work/proj-2/runtime_stats.png)
