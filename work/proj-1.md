@@ -18,10 +18,14 @@ wrong result -- potentially influencing the result of our tournament -- and I su
 You can view my fruitHelp API on GitHub [here](https://github.com/NikSteel/robot-fruit-hunt), which expands upon
 Hackforge's repo.
 
-Here are two bots that I made as examples that use the fruitHelp API (use the buttons below to start a match):
+Here are two bots that I made as examples that use the fruitHelp API:
 
-<iframe src="fruitbots" style="width: 500px; height: 630px; border: 0px; margin: 0 auto; display: block;"></iframe>
+<div class="fruitbots" >
+   <iframe src="fruitbots"></iframe>
+   <img alt="Fruitbots game" src="assets/img/work/proj-1/fruitvid.gif">
+</div>
 
-The evadeBot attempts to detect which fruit it's opponent might be targeting and avoids targeting the same fruit.
-The needBot calculates the fruit type that will benefit its score the most and targets the nearest instance of the type.
+The evadeBot attempts to detect which fruit it's opponent might be targeting and avoids targeting the same fruit
+if its opponent can arrive sooner. The evade bot also considers the value of the fruit.
+The nearBot targets the nearest fruit that can benefit its score.
  
