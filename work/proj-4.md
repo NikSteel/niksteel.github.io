@@ -5,7 +5,7 @@ title: Ergodox
 ![The unassembled kit.](assets/img/work/proj-4/kit.jpg)
 
 The [ErgoDox](http://ergodox.org/) is an ergonomic keyboard designed by a community of mechanical keyboard
-enthusiasts and made easy to purchase as a DIY kit by [Massdrop](massdrop.com).  I purchased the DIY
+enthusiasts and made easy to purchase as a DIY kit by [Massdrop](https://www.massdrop.com/home).  I purchased the DIY
 kit and assembled my ErgoDox keyboard from basic components.
 
 ![Partially assembled](assets/img/work/proj-4/half.jpg)
@@ -18,9 +18,7 @@ directly beneath my fingers when I type.
 
 ![My ergonomic desk top view](assets/img/work/proj-4/desktop.jpg)
 
-It really is great to type on and I learned a bit about device drivers
-in the process because it was necessary to download the source code, 
-tweak the key layout directly in the C driver code, compile it, and burn
-into the device firmware chip. 
+It really is great to type on, and I learned about device drivers
+in the process as I edited the firmware code to customize the key layout. 
 
 ![My ergonomic desk](assets/img/work/proj-4/deskwide.jpg)
