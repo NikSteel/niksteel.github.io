@@ -55,6 +55,8 @@ function  workLoad() {
         spinner = '<div class="loader">Loading...</div>',
         newHTML = window.location.origin + window.location.pathname + 'work/'+ newfolder;
       
+    document.getElementById('debug-https').innerHTML = newHTML;
+    
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
   });
