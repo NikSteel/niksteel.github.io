@@ -20,7 +20,7 @@ To enhance the report, I made an accurate 3D model of the facility:
 In addition to conducting ISO3382 measurements in the Coventry studio, I applied acoustic principles to 
 design a hypothetical studio recording room of my own.
 
-[Click here to download the hypothetical live room design as a PDF](assets/img/work/proj-8/roomdesign.pdf).
+[Click here to download an overview of the hypothetical room design as a PDF](assets/img/work/proj-8/roomdesign.pdf).
 
 Here are some renderings of the design:
 
