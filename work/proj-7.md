@@ -25,7 +25,7 @@ For an Acoustic Zoo workshop, we also experimented with using sand and surfaces 
 ![Chladni patterns in sand](assets/img/work/proj-7/sand.jpg)
 ![A hydrophobic coating over a metal pannel on a speaker.](assets/img/work/proj-7/hydrophobic.jpg)
 
-Here is the latest version on the rig, featuring a more compact version of the speaker (shown on the left) 
-that I made using a bass / couch shaker mounted to a small table:
+Here is the latest version of the rig, featuring a vibration table (shown on the left) 
+that I made using a bass / couch shaker:
 
 ![The latest version of the demo](assets/img/work/proj-7/newrig.jpg)
