@@ -53,8 +53,7 @@ function  workLoad() {
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        url = window.location.pathname;
-        newHTML = url + 'work/'+ newfolder;
+        newHTML = window.location.origin + window.location.pathname + 'work/'+ newfolder;
       
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
