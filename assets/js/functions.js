@@ -57,7 +57,8 @@ function  workLoad() {
       
     document.getElementById('debug-https').innerHTML = newHTML;
     
-    $('.project-load').html(spinner).load(newHTML);
+    $('.project-load').html(spinner);
+    $.get(newHTML, function(data){$('.project-load').html(data);});
     $('.project-title').text(newTitle);
   });
   
