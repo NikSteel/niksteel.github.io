@@ -63,22 +63,18 @@ a:hover, a:focus
   color: lighten($accent, 20%)
   
 a.word-button
+  @extend %small-bold
   display: block
-  padding: 10px
-  margin: 0px auto 0px auto
-  width: 140px
   border: 3px
   border-style: solid
+  text-align: center
   border-color: $accent
   color: $accent
-  @extend %small-bold
-  text-align: center
   
 a.word-button:hover
   color: $accent-light
   border-color: $accent-light
-
-
+  
 /* Selection colors (easy to forget)
   ------------------------------------	*/
 
