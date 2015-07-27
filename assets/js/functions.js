@@ -53,7 +53,7 @@ function  workLoad() {
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        newHTML = window.location.origin + window.location.pathname + 'work/'+ newfolder + 'index.html';
+        newHTML = window.location.origin + window.location.pathname + 'work/'+ newfolder + '/index.html';
       
     document.getElementById('debug-https').innerHTML = newHTML;
     
