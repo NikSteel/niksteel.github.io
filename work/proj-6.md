@@ -10,8 +10,10 @@ ribbon mic kit. It was a great experience to learn about what goes into the desi
 and the effects of various design parameters, such as the grill shape, acoustic damping, and the shape of
 the truss onto which the magnets are mounted. The completed microphones sound excellent as well!
 
-![Our team of participants](assets/img/work/proj-6/team.jpg)
-<img alt="Rob assembling his" src="assets/img/work/proj-6/rob.jpg" style="float:right">
+<div style="width:100%; height:auto">
+   <img alt="Our team of participants" src="assets/img/work/proj-6/team.jpg" style="float:left; width:50%; height:auto">
+   <img alt="Rob assembling his" src="assets/img/work/proj-6/rob.jpg" style="float:right; width:50%; height:auto">
+</div>
 Rob and Gilbert
 
 ![Making the mic grill](assets/img/work/proj-6/grill.jpg)

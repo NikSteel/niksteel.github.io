@@ -13,8 +13,10 @@ kit and assembled my ErgoDox keyboard from basic components.
 I also made a custom ergonomic desk to position the keys
 directly beneath my fingers when I type.
 
-![Ready for testing](assets/img/work/proj-4/testinghalf.jpg)
-<img alt="In the desk" src="assets/img/work/proj-4/desknarrow-half.jpg" style="float: right;">
+<div style="width:100%; height:auto">
+   <img alt="Ready for testing" src="assets/img/work/proj-4/testinghalf.jpg" style="float:left; width:50%; height:auto">
+   <img alt="In the desk" src="assets/img/work/proj-4/desknarrow-half.jpg" style="float:right; width:50%; height:auto">
+</div>
 
 ![My ergonomic desk top view](assets/img/work/proj-4/desktop.jpg)
 
