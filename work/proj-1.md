@@ -21,7 +21,7 @@ Hackforge's repo.
 Here are two bots that I made as examples that use the fruitHelp API:
 
 <div class="fruitbots" >
-   <iframe src="fruitbots"></iframe>
+   <iframe src="fruitbots/index.html"></iframe>
    <img alt="Fruitbots game" src="assets/img/work/proj-1/fruitvid.gif">
 </div>
 
