@@ -13,7 +13,7 @@ The project features contributions from Chris Zygowski, Eric Smith, and Dwayne A
 the desired functionality and requirements as a group, I wrote all of the C++ code, and then
 we debugged the code and determined the best parameters with which to generate our data as a group. 
 
-The source code and information about what it achieves and how to use it are available 
+The source code and information about what the program achieves and how to use it are available 
 [here](https://github.com/NikSteel/genetic-algorithm) on GitHub.
 
 

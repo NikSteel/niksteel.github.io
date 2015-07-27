@@ -5,7 +5,7 @@ title: GeekOS
 ![Our OS](assets/img/work/proj-2/start.png)
 
 I worked with peers to implement a simple command line operating system in C.
-Our OS offers the user an interactive demonstration of how processes are managed, synchronized
+Our OS offers the user an interactive demonstration of how processes are managed, synchronized,
 and scheduled using the foundational concepts that we learned during an introduction to operating
 systems course at the University of Windsor.
 The project spanned one month and features contributions from

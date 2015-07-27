@@ -20,12 +20,12 @@ are some videos of the rig in action and its evolution over time:
 
 <br>
 
-For an Acoustic Zoo workshop, we also experimented with using sand and surfaces coated with a hydrophobic coating:
+For an Acoustic Zoo workshop, we also experimented with using sand and surfaces treated with a hydrophobic coating:
 
 ![Chladni patterns in sand](assets/img/work/proj-7/sand.jpg)
 ![A hydrophobic coating over a metal pannel on a speaker.](assets/img/work/proj-7/hydrophobic.jpg)
 
-Here is the latest version of the rig, featuring a vibration table (shown on the left) 
-that I made using a bass / couch shaker:
+Here is the latest version of the rig, featuring a much lighter and more portable vibration table 
+(shown on the left) that I made using a Clark Synthesis tactile transducer:
 
 ![The latest version of the demo](assets/img/work/proj-7/newrig.jpg)

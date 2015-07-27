@@ -12,13 +12,14 @@ final project in an acoustics class.
 
 ![The SSL Studio at Coventry University](assets/img/work/proj-8/sslstudio.jpg)
 
-To enhance the report, I made an accurate 3D model of the facility:
+To enhance the report, I made an accurate 3D model of the facility and referenced it in 
+my calculations and analysis:
 
 ![3D model top](assets/img/work/proj-8/3dtop.jpg)
 ![3D model side](assets/img/work/proj-8/3dside.jpg)
 
 In addition to conducting ISO3382 measurements in the Coventry studio, I applied acoustic principles to 
-design a hypothetical studio recording room of my own.
+design a hypothetical sound recording room.
 
 [Click here to download the room design as a PDF](work/roomdesign.pdf).
 
