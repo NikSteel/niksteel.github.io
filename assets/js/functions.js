@@ -57,6 +57,14 @@ function  workLoad() {
     
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
+    
+    //smoothScroll to top of work:
+    var target = $('#work');
+    if( target.length ) {
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 800);
+    }
   });
   
 }
