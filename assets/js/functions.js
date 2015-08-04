@@ -27,11 +27,7 @@ function smoothScroll (duration) {
 
 
 function workBelt() {
-  
-  $(".trigger").remove();
-  $(".return").remove();
-
-  $('.thumb-container label').click(function() {
+  $('.thumb-container .label').click(function() {
     $('.work-belt').addClass("slided");
     $('.work-container').show();
   });
@@ -48,7 +44,7 @@ function  workLoad() {
   
   $.ajaxSetup({ cache: false });
   
-  $('.thumb-container label').click(function() {
+  $('.thumb-container .label').click(function() {
     var $this = $(this),
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
