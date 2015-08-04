@@ -10,9 +10,9 @@ ribbon mic kit. It was a great experience to learn about what goes into the desi
 and the effects of various design parameters, such as the grill shape, acoustic damping, and the path
 around the transducer. The completed microphones sound excellent!
 
-<div style="width:100%; height:auto">
-   <img alt="Our team of participants" src="assets/img/work/proj-6/team.jpg" style="float:left; width:50%; height:auto">
-   <img alt="Rob assembling his" src="assets/img/work/proj-6/rob.jpg" style="float:right; width:50%; height:auto">
+<div class="side-by-side">
+   <img alt="Our team of participants" src="assets/img/work/proj-6/team.jpg" class="sbs-left">
+   <img alt="Rob assembling his" src="assets/img/work/proj-6/rob.jpg" class="sbs-right">
 </div>
 Rob and Gilbert
 
