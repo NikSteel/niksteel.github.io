@@ -21,12 +21,17 @@ menu:
 seo:
   name: 'Nik Steel'
   job: 'Software Developer'
+  memberof: 'Audio Engineering Society'
+  alumniof: 'University of Windsor'
   description: 'Nik is an emerging software developer with audio engineering expertise.'
   image: 'https://niksteel.com/assets/img/nikitar.jpg'
   url: 'https://niksteel.com'
   rel-author: 'https://plus.google.com/u/0/+niksteel/'
   rel-publisher: 'https://plus.google.com/u/0/+niksteel/'
 
+# NOTE: social media links (from below in this doc) are also included for SEO
+  
+  
 #-------------------------------
 # Google Analytics Section
 
