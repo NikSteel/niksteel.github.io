@@ -87,7 +87,7 @@ clients:
 - {avatar: 'face-doug.jpg',
   name: 'Doug Sartori',
   title: 'Hackforge President',
-  quote: '<p>As a volunteer with Hackforge Nik has used his energy, creativity and talent to help his community. It is rare to find someone who can contribute at a high level both artistically and technically. Nik has that ability.</p>',
+  quote: 'As a volunteer with Hackforge Nik has used his energy, creativity and talent to help his community. It is rare to find someone who can contribute at a high level both artistically and technically. Nik has that ability.',
   logo: 'hackforgelogo.png'}
 - {avatar: 'face-trevor.jpg',
   name: 'Trevor Pittman',
@@ -97,7 +97,7 @@ clients:
 - {avatar: 'face-sarah.jpg',
   name: 'Sarah Morris',
   title: 'Program Coordinator at Windsor Hackforge',
-  quote: "<p>Nik Steel's <strong>creativity, intelligence, and talent</strong> has been an invaluable asset at Hackforge. He has volunteered his time creating and hosting interactive programming for our tech nonprofit, including cymatics rig demonstrations and kalimba workshops.</p>",
+  quote: "Nik Steel's <strong>creativity, intelligence, and talent</strong> has been an invaluable asset at Hackforge. He has volunteered his time creating and hosting interactive programming for our tech nonprofit, including cymatics rig demonstrations and kalimba workshops.",
   logo: 'hackforgelogo.png'}
 
 

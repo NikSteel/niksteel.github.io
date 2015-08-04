@@ -1,5 +1,16 @@
 ---
 title: Acoustic Zoo
+
+testimonials:
+- {avatar: 'assets/img/work/proj-5/face-aaron.jpg',
+  name: 'Aaron Eichler',
+  title: 'Vice President of Acoustic Zoo',
+  quote: "Nik worked in a very organized manner that was like the adhesive to our whole student group named Acoustic Zoo. Where I was the Idea generator; Nik helped bring everything to life with his technical skills and know how. He built many projects and organized our weekly meetings with great precision and attention to detail. Without the help from him, our group dedicated to helping students learn about the science of sound would have not been successful."}
+- {avatar: 'assets/img/work/proj-5/face-david.jpg',
+  name: 'David Bergeron',
+  title: 'Treasurer of Acoustic Zoo',
+  quote: "I can describe Nik Steel in two words, <strong>enthusiastic</strong> and <strong>involved</strong>. Working with Nik Steel was very easy and not because the work was easy. He curated fun and rewarding projects that we wanted to run smoothly. His enthusiasm was inspiring and I put in more effort as a result."}
+
 ---
 
 I founded and lead as president a UWSA student club at the University of Windsor called 
@@ -37,65 +48,8 @@ plan and facilitate twelve successful club activities over the 2014-2015 school 
   
 * **Analog Synthesis** - a lecture hosted in collaboration with Hackforge on how synthesizers work followed by
   an opportunity for attendees to play with a variety of analog synthesizers.
-  
-<hr>
 
-<div class="work-testimonial">
-  <figure class="client-face">
-    <img src="assets/img/work/proj-5/face-aaron.jpg" alt="Aaron Eichler">
-    <figcaption>
-      <strong class="client-name">Aaron Eichler</strong>
-      <em class="client-title">Vice President of Acoustic Zoo</em>
-    </figcaption>
-  </figure>
-
-  <div class="client-content">
-    <div class="client-quote-mark">
-       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" enable-background="new 0 0 55 55" xml:space="preserve">
-         <path d="M50.692,9.732c-12.207,6.16-18.309,14.697-18.309,25.615c0,3.64,1.147,6.733,3.443,9.28c2.295,2.548,5.01,3.821,8.146,3.821
-            c2.799,0,5.123-0.979,6.971-2.939c1.848-1.959,2.771-4.367,2.771-7.223c0-2.688-0.953-5.052-2.855-7.097
-            c-1.904-2.043-4.312-3.233-7.223-3.569c0-4.535,3.415-8.482,10.246-11.842L50.692,9.732z M19.87,9.732
-            C7.72,15.891,1.645,24.429,1.645,35.347c0,3.64,1.134,6.733,3.401,9.28c2.268,2.548,4.968,3.821,8.104,3.821
-            c2.799,0,5.136-0.979,7.013-2.939c1.875-1.959,2.813-4.367,2.813-7.223c0-2.688-0.953-5.052-2.856-7.097
-            c-1.904-2.043-4.34-3.233-7.307-3.569c0-4.535,3.443-8.482,10.33-11.842L19.87,9.732z"></path>
-       </svg>
-    </div>
-    Nik worked in a very organized manner that was like the adhesive to our whole student 
-    group named Acoustic Zoo. Where I was the Idea generator; Nik helped bring everything 
-    to life with his technical skills and know how. He built many projects and
-    organized our  weekly meetings with great precision and attention to detail. Without the help 
-    from him, our group dedicated to helping students learn about the science of sound would have 
-    not been successful.
-  </div>
-</div>
-
-<div class="work-testimonial">
-  <figure class="client-face">
-    <img src="assets/img/work/proj-5/face-david.jpg" alt="David Bergeron">
-    <figcaption>
-      <strong class="client-name">David Bergeron</strong>
-      <em class="client-title">Treasurer of Acoustic Zoo</em>
-    </figcaption>
-  </figure>
-  <div class="client-content">
-    <div class="client-quote-mark">
-       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" enable-background="new 0 0 55 55" xml:space="preserve">
-         <path d="M50.692,9.732c-12.207,6.16-18.309,14.697-18.309,25.615c0,3.64,1.147,6.733,3.443,9.28c2.295,2.548,5.01,3.821,8.146,3.821
-            c2.799,0,5.123-0.979,6.971-2.939c1.848-1.959,2.771-4.367,2.771-7.223c0-2.688-0.953-5.052-2.855-7.097
-            c-1.904-2.043-4.312-3.233-7.223-3.569c0-4.535,3.415-8.482,10.246-11.842L50.692,9.732z M19.87,9.732
-            C7.72,15.891,1.645,24.429,1.645,35.347c0,3.64,1.134,6.733,3.401,9.28c2.268,2.548,4.968,3.821,8.104,3.821
-            c2.799,0,5.136-0.979,7.013-2.939c1.875-1.959,2.813-4.367,2.813-7.223c0-2.688-0.953-5.052-2.856-7.097
-            c-1.904-2.043-4.34-3.233-7.307-3.569c0-4.535,3.443-8.482,10.33-11.842L19.87,9.732z"></path>
-       </svg>
-    </div>
-    I can describe Nik Steel in two words, <strong>enthusiastic</strong> and <strong>involved</strong>. 
-    Working with Nik Steel was very easy and not because the work was easy. 
-    He curated fun and rewarding projects that we wanted to run smoothly. 
-    His enthusiasm was inspiring and I put in more effort as a result.
-  </div>
-</div>
-
-<hr>
+{% include work-testimonial.html %}
 
 Now that we have completed university, we hope to continue Acoustic Zoo as a group for 
 audio enthusiasts and electro-acoustic musicians independent of the University and the UWSA.  

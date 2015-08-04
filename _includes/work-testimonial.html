@@ -1,0 +1,20 @@
+<hr>
+
+{% for testimonial in page.testimonials %}
+   <div class="work-testimonial">
+     <figure class="client-face">
+       <img src="{{ testimonial.avatar }}" alt="{{ testimonial.name }}">
+       <figcaption>
+         <strong class="client-name">{{ testimonial.name }}</strong>
+         <em class="client-title">{{ testimonial.title }}</em>
+       </figcaption>
+     </figure>
+
+     <div class="client-content">
+       <div class="client-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+       <p>{{ testimonial.quote }}</p>
+     </div>
+   </div>
+{% endfor %}
+
+<hr>
