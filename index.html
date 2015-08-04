@@ -9,8 +9,26 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.data.settings.seo.description }}">
-  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
-  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+  <link rel="author" href="{{ site.data.settings.seo.rel-author }}">
+  <link rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+  
+  <script type="application/ld+json">
+   {
+     "@context": "http://schema.org",
+     "@type": "Person",
+     "name": "{{ site.data.settings.seo.name }}",
+     "jobTitle": "{{ site.data.settings.seo.job }}",
+     "description": "{{ site.data.settings.seo.description }}",
+     "image": "{{ site.data.settings.seo.image }}",
+     "url": "{{ site.data.settings.seo.url }}",
+     "sameAs" : [
+       {% for slink in site.data.settings.social %}
+         {% if forloop.last %}"{{ slink.link }}"{% else %}"{{ slink.link }}",{% endif %}
+       {% endfor %}
+      ]
+   }
+  </script>
+  
 
   <title>{{ site.data.settings.title }}</title>
 
